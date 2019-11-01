@@ -1,0 +1,20 @@
+syntax on
+set backspace=2
+set expandtab
+set tabstop=4
+set shiftwidth=4
+retab
+set t_Co=256
+set number
+set wrap
+set ruler
+set incsearch
+call plug#begin('~/.vim/plugged')
+Plug 'scrooloose/syntastic'
+Plug 'valloric/youcompleteme'
+Plug 'scrooloose/nerdtree'
+Plug 'morhetz/gruvbox'
+Plug 'vim-airline/vim-airline'
+call plug#end()
+colorscheme gruvbox
+set background=dark
